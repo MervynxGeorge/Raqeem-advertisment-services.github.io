@@ -1,0 +1,1197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raqeem Advertising Services | Dubai Creative & Growth Agency</title>
+  <meta name="description" content="Raqeem is a Dubai creative and growth partner bringing brand strategy, high-craft creative and purposeful media together for ambitious businesses.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#17130f">
+  <link rel="canonical" href="https://raqeemadvertising.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Raqeem Advertising Services | Make a Mark That Moves">
+  <meta property="og:description" content="A Dubai creative and growth partner for brands ready to make a lasting mark.">
+  <meta property="og:url" content="https://raqeemadvertising.com/">
+  <meta property="og:image" content="https://raqeemadvertising.com/images/Raqeem-Advertising-Logo%20-%20Copy.png">
+  <link rel="icon" type="image/png" href="images/Raqeem-Advertising-Logo - Copy.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"AdvertisingAgency","name":"Raqeem Advertising Services","url":"https://raqeemadvertising.com/","logo":"https://raqeemadvertising.com/images/Raqeem-Advertising-Logo%20-%20Copy.png","description":"Dubai creative and growth partner providing brand strategy, creative and media.","address":{"@type":"PostalAddress","addressLocality":"Dubai","addressCountry":"AE"}}</script>
+  <style>
+    :root {
+      --ink: #181411;
+      --ink-soft: #3f3934;
+      --paper: #f8f6f2;
+      --paper-deep: #eeeae2;
+      --white: #fffdf9;
+      --gold: #c28d42;
+      --gold-light: #e7c487;
+      --red: #b21826;
+      --line: rgba(37, 29, 22, .14);
+      --shadow: 0 24px 70px rgba(43, 31, 20, .1);
+      --display: "Playfair Display", Georgia, serif;
+      --body: "Manrope", Arial, sans-serif;
+      --mono: "DM Mono", monospace;
+      --wrap: 1200px;
+      --ease: cubic-bezier(.2, .7, .2, 1);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: var(--body);
+      font-size: 16px;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+    button { color: inherit; font: inherit; }
+    img { display: block; max-width: 100%; }
+    :focus-visible { outline: 3px solid var(--gold-light); outline-offset: 4px; }
+    .container { width: min(var(--wrap), calc(100% - 48px)); margin: 0 auto; }
+    .section { padding: clamp(82px, 10vw, 144px) 0; }
+    .display { margin: 0; font-family: var(--display); font-weight: 700; letter-spacing: -.045em; line-height: 1.03; }
+    .gold { color: var(--gold); }
+    .skip-link { position: fixed; z-index: 100; top: -60px; left: 16px; padding: 10px 14px; border-radius: 0 0 7px 7px; color: var(--ink); background: var(--gold-light); font-weight: 800; transition: top .2s ease; }
+    .skip-link:focus { top: 0; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; margin: 0 0 18px; color: var(--gold); font: 500 .73rem/1 var(--mono); letter-spacing: .11em; text-transform: uppercase; }
+    .eyebrow:before { width: 28px; height: 1px; content: ""; background: currentColor; }
+    .lede { max-width: 600px; margin: 23px 0 0; color: var(--ink-soft); font-size: 1.15rem; line-height: 1.8; }
+    .section-heading { max-width: 730px; }
+    .section-heading .display { font-size: clamp(2.4rem, 5vw, 4.65rem); }
+
+    /* ========== VIDEO PRELOADER ========== */
+    .preloader {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      transition: opacity .65s ease, visibility .65s ease;
+    }
+    .preloader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+    .preloader-video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .preloader-skip {
+      position: absolute;
+      bottom: 30px;
+      right: 30px;
+      z-index: 2;
+      padding: 10px 18px;
+      border: 1px solid rgba(255,255,255,.3);
+      border-radius: 2px;
+      background: rgba(0,0,0,.5);
+      color: #fff;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      cursor: pointer;
+      transition: background .2s ease, border-color .2s ease;
+    }
+    .preloader-skip:hover {
+      background: rgba(194,141,66,.7);
+      border-color: var(--gold-light);
+    }
+
+    /* Header */
+    .site-header {
+      position: fixed;
+      z-index: 50;
+      top: 0;
+      right: 0;
+      left: 0;
+      border-bottom: 1px solid transparent;
+      color: #fffaf2;
+      transition: background-color .25s ease, color .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .site-header.is-scrolled, .site-header.menu-open {
+      color: var(--ink);
+      border-color: var(--line);
+      background: rgba(255, 253, 249, .96);
+      box-shadow: 0 8px 30px rgba(28, 19, 11, .06);
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; min-height: 84px; gap: 26px; }
+    .brand { display: inline-flex; flex: 0 0 auto; align-items: center; gap: 10px; }
+    .brand img { width: 39px; height: 39px; object-fit: contain; }
+    .brand-name { display: block; font-size: 1.3rem; font-weight: 800; letter-spacing: .11em; line-height: 1; }
+    .brand-caption { display: block; margin-top: 5px; font: 400 .7rem/1 var(--mono); letter-spacing: .11em; opacity: .72; text-transform: uppercase; }
+    .nav-list { display: flex; align-items: center; gap: clamp(14px, 2vw, 29px); padding: 0; margin: 0 0 0 auto; list-style: none; font-size: 1.05rem; font-weight: 700; }
+    .nav-list a { position: relative; padding: 8px 0; opacity: .77; transition: opacity .2s ease, color .2s ease; }
+    .nav-list a:hover, .nav-list a[aria-current="page"] { color: var(--gold); opacity: 1; }
+    .nav-list a[aria-current="page"]:after { position: absolute; right: 0; bottom: 0; left: 0; height: 2px; content: ""; background: currentColor; }
+    .nav-cta, .button { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 21px; border: 1px solid transparent; border-radius: 2px; font-size: .9rem; font-weight: 800; letter-spacing: .01em; transition: transform .2s ease, background .2s ease, color .2s ease, border-color .2s ease; }
+    .nav-cta { min-height: 42px; padding: 0 16px; color: var(--ink); background: var(--gold-light); font-size: .95rem; }
+    .button-primary { color: #fff; background: var(--red); box-shadow: 0 10px 24px rgba(178, 24, 38, .18); }
+    .button-secondary { color: var(--ink); border-color: rgba(24, 20, 17, .35); background: transparent; }
+    .button:hover, .nav-cta:hover { transform: translateY(-2px); }
+    .button-primary:hover { background: #921421; }
+    .button-secondary:hover { border-color: var(--gold); color: var(--gold); }
+    .menu-toggle { display: none; width: 44px; height: 44px; padding: 0; border: 0; color: inherit; background: transparent; }
+    .menu-toggle span { display: block; width: 23px; height: 2px; margin: 5px auto; background: currentColor; transition: transform .2s ease, opacity .2s ease; }
+    .menu-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .menu-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+    .menu-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* HERO */
+    .hero {
+      position: relative;
+      display: grid;
+      align-items: center;
+      min-height: 100svh;
+      padding: clamp(118px, 14vh, 152px) 0 clamp(64px, 8vh, 92px);
+      margin: 0;
+      color: #fffaf2;
+      background: var(--red);
+      isolation: isolate;
+      overflow: hidden;
+      border-bottom: 1px solid rgba(231, 196, 135, .18);
+    }
+    .hero:before {
+      position: absolute;
+      z-index: -2;
+      inset: 0;
+      content: "";
+      background:
+        radial-gradient(ellipse at 50% 42%, transparent 38%, rgba(70, 5, 12, .42) 100%),
+        radial-gradient(circle at 78% 26%, rgba(231, 196, 135, .30), transparent 0 24%),
+        radial-gradient(circle at 14% 90%, rgba(231, 196, 135, .10), transparent 0 30%),
+        radial-gradient(circle at 58% 104%, rgba(104, 8, 19, .45), transparent 0 28%),
+        linear-gradient(120deg, #8d1220 0%, #b21826 53%, #96101f 100%);
+    }
+    .hero:after {
+      position: absolute;
+      z-index: -1;
+      top: -21vw;
+      right: -7vw;
+      width: min(660px, 64vw);
+      aspect-ratio: 1;
+      content: "";
+      border: 1px solid rgba(231, 196, 135, .30);
+      border-radius: 50%;
+      box-shadow:
+        0 0 0 74px rgba(231, 196, 135, .045),
+        0 0 0 150px rgba(231, 196, 135, .028);
+      animation: ringFloat 16s ease-in-out infinite;
+    }
+    @keyframes ringFloat {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50%      { transform: translateY(-20px) rotate(3deg); }
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(300px, .72fr);
+      align-items: center;
+      gap: 65px;
+    }
+    .hero .eyebrow { color: var(--gold-light); }
+    .hero-title {
+      max-width: 800px;
+      font-size: clamp(3.45rem, 7.7vw, 7.7rem);
+      text-shadow: 0 26px 60px rgba(60, 5, 12, .45);
+    }
+    .hero-title em {
+      color: var(--gold-light);
+      font-style: italic;
+      text-shadow: 0 0 46px rgba(231, 196, 135, .40);
+    }
+    .hero .lede { color: rgba(255, 250, 242, .78); }
+    .hero-actions, .cta-actions { display: flex; flex-wrap: wrap; gap: 13px; margin-top: 34px; }
+    .hero .button-secondary { color: #fffaf2; border-color: rgba(255, 250, 242, .44); }
+    .hero .button-secondary:hover { border-color: var(--gold-light); color: var(--gold-light); }
+    .hero-video {
+      position: relative;
+      width: 100%;
+      min-height: 400px;
+      border: 1px solid rgba(231, 196, 135, .30);
+      background: #000;
+      overflow: hidden;
+      border-radius: 6px;
+      box-shadow:
+        0 34px 80px rgba(60, 5, 12, .50),
+        inset 0 0 0 1px rgba(255, 250, 242, .06);
+    }
+    .hero-video video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+    .scroll-cue-center { position: absolute; bottom: 26px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 8px; color: rgba(255, 250, 242, .55); font: .62rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; z-index: 2; }
+    .scroll-cue-center i { color: var(--gold-light); font-size: .8rem; animation: bounce 2s infinite; }
+    @keyframes bounce { 0%, 20%, 50%, 80%, 100% { transform: translateY(0); } 40% { transform: translateY(-5px); } 60% { transform: translateY(-3px); } }
+
+    /* Marquee */
+    .marquee-section {
+      background: var(--ink);
+      padding: 22px 0;
+      border-top: 1px solid rgba(255,250,242,.1);
+      border-bottom: 1px solid rgba(255,250,242,.1);
+      overflow: hidden;
+      position: relative;
+    }
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marquee 25s linear infinite;
+    }
+    .marquee-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      padding: 0 30px;
+      font-family: var(--mono);
+      font-size: .85rem;
+      font-weight: 500;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      white-space: nowrap;
+    }
+    .marquee-item i { font-size: 1rem; color: var(--gold); }
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* Clients */
+    .clients {
+      background: #1c1713;
+      padding: 50px 0;
+      position: relative;
+      overflow: hidden;
+      border-bottom: 1px solid rgba(255,250,242,.08);
+    }
+    .clients::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+    .clients-inner { text-align: center; margin-bottom: 35px; }
+    .clients-inner .eyebrow { color: var(--gold-light); justify-content: center; }
+    .clients-inner .eyebrow:before,
+    .clients-inner .eyebrow:after {
+      width: 28px;
+      height: 1px;
+      content: "";
+      background: currentColor;
+    }
+    .clients-inner .eyebrow:before { margin-right: 9px; }
+    .clients-inner .eyebrow:after { margin-left: 9px; }
+    .clients-marquee {
+      display: flex;
+      overflow: hidden;
+      -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+      mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    }
+    .clients-track {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      width: max-content;
+      animation: clientsScroll 35s linear infinite;
+    }
+    .client-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: var(--display);
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: -.02em;
+      color: rgba(255,250,242,.5);
+      white-space: nowrap;
+      transition: color .3s ease;
+    }
+    .client-item:hover { color: var(--gold-light); }
+    .client-diamond {
+      width: 10px;
+      height: 10px;
+      background: var(--gold);
+      transform: rotate(45deg);
+      flex-shrink: 0;
+    }
+    @keyframes clientsScroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* Intro */
+    .intro { background: var(--paper); }
+    .intro-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(345px, .88fr); align-items: center; gap: clamp(45px, 9vw, 130px); }
+    .intro-copy .display { font-size: clamp(2.6rem, 5vw, 4.7rem); }
+    .intro-copy p { max-width: 585px; margin: 22px 0 0; color: var(--ink-soft); font-size: 1.05rem; }
+    .intro-copy p strong { color: var(--ink); }
+    .intro-link { display: inline-flex; align-items: center; gap: 10px; margin-top: 31px; color: var(--red); font-size: .9rem; font-weight: 800; }
+    .intro-link:hover { color: var(--gold); }
+
+    /* ============================================================
+       INTRO CARD — landscape image box, image only
+       ============================================================ */
+    .intro-card {
+      position: relative;
+      aspect-ratio: 16 / 10;
+      background: var(--ink);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      border-radius: 6px;
+      border: 1px solid rgba(231, 196, 135, .22);
+      isolation: isolate;
+    }
+    /* Gold ring decoration peeking from the top-right corner */
+    .intro-card:before {
+      position: absolute;
+      top: -10%;
+      right: -20%;
+      width: 68%;
+      aspect-ratio: 1;
+      content: "";
+      border: 1px solid rgba(231, 196, 135, .30);
+      border-radius: 50%;
+      box-shadow:
+        0 0 0 34px rgba(231, 196, 135, .06),
+        0 0 0 70px rgba(231, 196, 135, .035);
+      z-index: 2;
+      pointer-events: none;
+    }
+    /* Soft vignette at edges for depth */
+    .intro-card:after {
+      position: absolute;
+      inset: 0;
+      content: "";
+      background: linear-gradient(180deg, rgba(24, 20, 17, .10) 0%, transparent 45%, rgba(24, 20, 17, .22) 100%);
+      z-index: 1;
+      pointer-events: none;
+    }
+    .intro-card-image {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+      opacity: .85;
+      filter: grayscale(10%) contrast(1.05);
+      transition: transform 1.4s var(--ease);
+      will-change: transform;
+    }
+    .intro-card:hover .intro-card-image { transform: scale(1.04); }
+
+    /* Services */
+    .services { background: var(--white); }
+    .services-top { display: flex; align-items: end; justify-content: space-between; gap: 35px; }
+    .services-note { max-width: 300px; margin: 0 0 7px; color: var(--ink-soft); font-size: .95rem; }
+    .service-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; margin-top: 59px; border: 1px solid var(--line); background: var(--line); }
+    .service { position: relative; min-height: 298px; padding: 36px; background: var(--white); transition: background .25s ease, transform .25s ease, box-shadow .25s ease; }
+    .service:hover { z-index: 1; background: #fcf5e9; transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,.08); }
+    .service-icon { display: grid; width: 43px; height: 43px; place-items: center; color: var(--red); border: 1px solid rgba(178, 24, 38, .26); border-radius: 50%; font-size: .92rem; transition: transform .3s ease, background .3s ease; }
+    .service:hover .service-icon { transform: rotate(10deg) scale(1.05); background: rgba(194,141,66,.1); }
+    .service h3 { margin: 37px 0 10px; font-family: var(--display); font-size: clamp(1.6rem, 2.7vw, 2.1rem); letter-spacing: -.04em; }
+    .service p { max-width: 430px; margin: 0; color: var(--ink-soft); font-size: .95rem; }
+    .service-link { position: absolute; right: 35px; bottom: 29px; color: var(--gold); font-size: .85rem; font-weight: 800; transition: color .2s ease; }
+    .service-link:hover { color: var(--red); }
+
+    /* Belief */
+    .belief { position: relative; color: #fffaf2; background: #1c1713; overflow: hidden; }
+    .belief:after { position: absolute; top: -180px; right: -170px; width: 500px; height: 500px; content: ""; border: 1px solid rgba(231, 196, 135, .21); border-radius: 50%; box-shadow: 0 0 0 80px rgba(231, 196, 135, .028); }
+    .belief .section-heading { position: relative; z-index: 1; }
+    .belief .eyebrow { color: var(--gold-light); }
+    .belief .lede { color: rgba(255, 250, 242, .7); }
+    .belief-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1px; margin-top: 58px; border: 1px solid rgba(255, 250, 242, .16); background: rgba(255, 250, 242, .16); }
+    .belief-item { min-height: 250px; padding: 33px; background: rgba(255, 255, 255, .035); transition: background .3s ease; }
+    .belief-item:nth-child(2) { background: rgba(194, 141, 66, .11); }
+    .belief-item:hover { background: rgba(255, 255, 255, .06); }
+    .belief-number { color: var(--gold-light); font: 500 .7rem/1 var(--mono); letter-spacing: .11em; }
+    .belief-item h3 { margin: 40px 0 11px; font-family: var(--display); font-size: 1.58rem; letter-spacing: -.03em; }
+    .belief-item p { margin: 0; color: rgba(255, 250, 242, .69); font-size: .92rem; }
+
+    /* Method */
+    .method { background: var(--paper); }
+    .method-top { display: flex; align-items: end; justify-content: space-between; gap: 40px; }
+    .method-note { max-width: 293px; margin: 0 0 7px; color: var(--ink-soft); font-size: .95rem; }
+    .method-list { margin-top: 55px; border-top: 1px solid var(--line); }
+    .method-item { display: grid; grid-template-columns: 96px 1.1fr 1.5fr; gap: 30px; align-items: baseline; padding: 29px 0; border-bottom: 1px solid var(--line); transition: padding .25s ease, background .25s ease; }
+    .method-item:hover { padding-right: 18px; padding-left: 18px; background: rgba(194, 141, 66, .055); }
+    .method-index { color: var(--gold); font: 500 .72rem/1 var(--mono); letter-spacing: .1em; }
+    .method-item h3 { margin: 0; font-family: var(--display); font-size: 1.55rem; letter-spacing: -.03em; }
+    .method-item p { margin: 0; color: var(--ink-soft); font-size: .95rem; }
+
+    /* Featured Work */
+    .featured { background: var(--paper-deep); }
+    .featured-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin-top: 60px; }
+    .work-card { position: relative; overflow: hidden; border-radius: 4px; background: var(--ink); aspect-ratio: 3/4; }
+    .work-card img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+    .work-card:hover img { transform: scale(1.05); }
+    .work-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(24,20,17,.8), transparent 60%); display: flex; flex-direction: column; justify-content: flex-end; padding: 25px; color: #fffaf2; opacity: 0; transition: opacity .3s ease; }
+    .work-card:hover .work-overlay { opacity: 1; }
+    .work-overlay h3 { margin: 0 0 5px; font-family: var(--display); font-size: 1.5rem; letter-spacing: -.02em; }
+    .work-overlay p { margin: 0; font-size: .85rem; opacity: .8; }
+
+    /* Testimonials */
+    .testimonials { background: var(--white); }
+    .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin-top: 60px; }
+    .testimonial { background: var(--paper); padding: 35px; border-radius: 4px; border: 1px solid var(--line); transition: transform .3s ease, box-shadow .3s ease; }
+    .testimonial:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
+    .quote-mark { font-family: var(--display); font-size: 4rem; line-height: 1; color: var(--gold); opacity: .3; }
+    .testimonial p { font-size: 1rem; color: var(--ink-soft); margin: 10px 0 20px; }
+    .client-info { display: flex; align-items: center; gap: 15px; }
+    .client-avatar { width: 45px; height: 45px; border-radius: 50%; background: var(--gold-light); display: flex; align-items: center; justify-content: center; font-weight: 800; color: var(--ink); }
+    .client-name { font-weight: 800; font-size: .9rem; }
+    .client-role { font-size: .8rem; color: var(--ink-soft); }
+
+    /* Insights */
+    .insights { background: var(--paper); }
+    .insights-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin-top: 60px; }
+    .insight-card { background: var(--white); border-radius: 4px; overflow: hidden; border: 1px solid var(--line); transition: transform .3s ease, box-shadow .3s ease; }
+    .insight-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
+    .insight-thumb { position: relative; width: 100%; height: 200px; background: var(--paper-deep); overflow: hidden; }
+    .insight-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .6s ease; }
+    .insight-card:hover .insight-thumb img { transform: scale(1.06); }
+    .insight-content { padding: 25px; }
+    .insight-tag { font: 500 .6rem/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--gold); }
+    .insight-content h3 { margin: 10px 0 8px; font-family: var(--display); font-size: 1.4rem; letter-spacing: -.02em; }
+    .insight-content p { font-size: .93rem; color: var(--ink-soft); margin-bottom: 15px; }
+    .insight-link { font-size: .85rem; font-weight: 800; color: var(--red); }
+    .insight-link:hover { color: var(--gold); }
+
+    /* FAQ */
+    .faq { background: var(--white); }
+    .faq-list { max-width: 800px; margin: 60px auto 0; }
+    .faq-item { border-bottom: 1px solid var(--line); }
+    .faq-question { width: 100%; background: none; border: none; padding: 20px 0; font-weight: 700; font-size: 1.05rem; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+    .faq-question i { transition: transform .3s ease; color: var(--gold); }
+    .faq-item.open .faq-question i { transform: rotate(180deg); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height .3s ease; color: var(--ink-soft); font-size: .95rem; }
+    .faq-item.open .faq-answer { max-height: 200px; }
+
+    /* CTA */
+    .cta { position: relative; padding: clamp(83px, 11vw, 155px) 0; color: #fffaf2; background: var(--red); overflow: hidden; }
+    .cta:before { position: absolute; top: -23vw; right: -13vw; width: min(680px, 66vw); aspect-ratio: 1; content: ""; border: 1px solid rgba(255, 255, 255, .19); border-radius: 50%; box-shadow: 0 0 0 70px rgba(255, 255, 255, .045), 0 0 0 150px rgba(255, 255, 255, .03); }
+    .cta:after { position: absolute; right: 0; bottom: 0; left: 0; height: 38%; content: ""; background: linear-gradient(transparent, rgba(92, 7, 14, .28)); }
+    .cta-content { position: relative; z-index: 1; max-width: 790px; }
+    .cta .eyebrow { color: #ffe7b4; }
+    .cta .display { font-size: clamp(2.9rem, 6vw, 5.8rem); }
+    .cta p { max-width: 595px; margin: 23px 0 0; color: rgba(255, 250, 242, .81); font-size: 1.1rem; }
+    .cta .button-primary { color: var(--ink); background: var(--gold-light); box-shadow: none; }
+    .cta .button-primary:hover { background: #ffe0a2; }
+    .cta .button-secondary { color: #fffaf2; border-color: rgba(255, 250, 242, .55); }
+
+    /* Footer */
+    .site-footer {
+      background: #14110f;
+      color: rgba(255,250,242,.75);
+      position: relative;
+      overflow: hidden;
+    }
+    .site-footer::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+    .footer-top {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1.2fr;
+      gap: 50px;
+      padding: 80px 0 60px;
+    }
+    .footer-brand { max-width: 350px; }
+    .footer-brand .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: #fffaf2;
+    }
+    .footer-brand .brand img { width: 45px; height: 45px; object-fit: contain; }
+    .footer-brand .brand-name { font-size: 1.4rem; }
+    .footer-brand p {
+      margin: 20px 0 0;
+      font-size: .95rem;
+      color: rgba(255,250,242,.6);
+      line-height: 1.7;
+    }
+    .footer-title {
+      margin: 0 0 20px;
+      color: var(--gold-light);
+      font: 500 .7rem/1.3 var(--mono);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .footer-links { padding: 0; margin: 0; list-style: none; }
+    .footer-links li + li { margin-top: 12px; }
+    .footer-links a {
+      font-size: .95rem;
+      color: rgba(255,250,242,.65);
+      transition: color .2s ease, padding-left .2s ease;
+      display: inline-flex;
+      align-items: center;
+    }
+    .footer-links a:hover { color: var(--gold-light); padding-left: 5px; }
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 15px;
+      font-size: .9rem;
+      color: rgba(255,250,242,.65);
+    }
+    .footer-contact-item i {
+      color: var(--gold);
+      font-size: 1rem;
+      margin-top: 3px;
+      width: 18px;
+      text-align: center;
+    }
+    .footer-social { display: flex; gap: 12px; margin-top: 25px; flex-wrap: wrap; }
+    .footer-social a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.04);
+      color: rgba(255,250,242,.7);
+      border: 1px solid rgba(255,250,242,.1);
+      transition: all .3s ease;
+      font-size: 1rem;
+    }
+    .footer-social a:hover {
+      background: var(--gold);
+      border-color: var(--gold);
+      color: #14110f;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0,0,0,.3);
+    }
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 25px 0;
+      border-top: 1px solid rgba(255,250,242,.08);
+      font-size: .85rem;
+      color: rgba(255,250,242,.45);
+    }
+    .footer-bottom a { color: rgba(255,250,242,.6); transition: color .2s ease; }
+    .footer-bottom a:hover { color: var(--gold-light); }
+    .back-to-top { position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px; background: var(--gold); color: var(--ink); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow); opacity: 0; visibility: hidden; transition: opacity .3s ease, visibility .3s ease; z-index: 20; }
+    .back-to-top.visible { opacity: 1; visibility: visible; }
+    .back-to-top:hover { background: var(--gold-light); }
+
+    /* Reveal animations */
+    [data-reveal] { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s var(--ease); }
+    [data-reveal].is-visible { opacity: 1; transform: none; }
+
+    @media (max-width: 1100px) {
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 40px; }
+      .footer-brand { grid-column: 1 / -1; max-width: none; }
+    }
+    @media (max-width: 680px) {
+      .footer-top { grid-template-columns: 1fr; gap: 35px; padding: 50px 0 40px; }
+      .footer-brand { grid-column: auto; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; }
+    }
+    @media (max-width: 900px) {
+      .nav-list { gap: 15px; }
+      .nav-cta { display: none; }
+      .hero-grid, .intro-grid { grid-template-columns: 1fr; }
+      .hero-grid { gap: 42px; }
+      .scroll-cue-center { display: none; }
+      .intro-grid { gap: 50px; }
+      .belief-grid, .featured-grid, .testimonials-grid, .insights-grid { grid-template-columns: 1fr 1fr; }
+      .method-item { grid-template-columns: 70px 1fr; }
+      .method-item p { grid-column: 2; }
+    }
+    @media (max-width: 680px) {
+      .container { width: min(100% - 36px, var(--wrap)); }
+      .nav { min-height: 70px; }
+      .brand img { width: 34px; height: 34px; }
+      .nav-list { position: absolute; top: 70px; right: 0; left: 0; display: grid; gap: 0; max-height: 0; padding: 0 18px; visibility: hidden; overflow: hidden; border-bottom: 1px solid transparent; background: var(--white); opacity: 0; transition: max-height .3s ease, padding .3s ease, opacity .2s ease, visibility .3s; }
+      .nav-list.is-open { max-height: 430px; padding-top: 11px; padding-bottom: 16px; visibility: visible; border-color: var(--line); opacity: 1; }
+      .nav-list li { border-bottom: 1px solid var(--line); }
+      .nav-list li:last-child { border: 0; }
+      .nav-list a { display: block; padding: 13px 0; color: var(--ink); opacity: 1; }
+      .nav-list a[aria-current="page"]:after { display: none; }
+      .menu-toggle { display: block; }
+      .hero { min-height: 100svh; padding-top: 108px; padding-bottom: 54px; }
+      .hero-grid { align-items: start; }
+      .hero-title { font-size: clamp(3.1rem, 14.5vw, 4.6rem); }
+      .lede { font-size: 1rem; }
+      .hero-actions, .cta-actions { display: grid; grid-template-columns: 1fr; }
+      .hero-actions .button, .cta-actions .button { width: 100%; }
+      .hero-video { min-height: 300px; }
+      .services-top, .method-top { display: block; }
+      .services-note, .method-note { margin-top: 18px; }
+      .service-grid, .belief-grid, .featured-grid, .testimonials-grid, .insights-grid { grid-template-columns: 1fr; }
+      .service { min-height: 260px; }
+      .belief-grid { margin-top: 45px; }
+      .method-item { grid-template-columns: 49px 1fr; gap: 14px; }
+      .method-item p { grid-column: 1 / -1; padding-left: 63px; }
+      .footer-top { grid-template-columns: 1fr; gap: 35px; }
+      .footer-brand { max-width: 100%; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; gap: 10px; }
+      .footer-bottom a { margin-top: 0; }
+      .back-to-top { bottom: 20px; right: 20px; }
+      .marquee-item { font-size: .75rem; padding: 0 15px; }
+      .client-item { font-size: 1.4rem; gap: 30px; }
+      .clients-track { gap: 30px; }
+      .preloader-skip { bottom: 20px; right: 20px; }
+    }
+    @media (max-width: 390px) {
+      .brand-caption { display: none; }
+      .footer-top { grid-template-columns: 1fr; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *:before, *:after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+      [data-reveal] { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Video Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <video class="preloader-video" id="preloaderVideo" autoplay muted playsinline preload="auto">
+      <source src="videos/Loading page.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <button class="preloader-skip" id="preloaderSkip" type="button" aria-label="Skip loading video">Skip intro <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+  </div>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Raqeem Advertising Services home">
+        <img src="images/Raqeem-Advertising-Logo - Copy.png" width="39" height="39" alt="">
+        <span>
+          <span class="brand-name">RAQEEM<span class="gold">.</span></span>
+          <span class="brand-caption">Advertising Services</span>
+        </span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list" id="primary-navigation">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="nav-cta" href="contact.html">Start a project <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="page-title">
+      <div class="container hero-grid">
+        <div data-reveal>
+          <p class="eyebrow">Creative & growth partner · Dubai</p>
+          <h1 class="display hero-title" id="page-title">Make a mark that <em>moves.</em></h1>
+          <p class="lede">We help ambitious businesses find their point of view, turn it into unforgettable creative and take it to the people who matter.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="contact.html">Start a conversation <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            <a class="button button-secondary" href="#services">Explore what we do <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="hero-video" data-reveal>
+          <video autoplay muted loop playsinline>
+            <source src="videos/Logo_reveal_in_darkness_202609081448.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <span class="scroll-cue-center" aria-hidden="true">Scroll to discover <i class="fa-solid fa-arrow-down"></i></span>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee-section" aria-label="Our expertise areas">
+      <div class="marquee-track" id="marqueeTrack">
+        <div class="marquee-item"><i class="fas fa-gem"></i> LUXURY REAL ESTATE</div>
+        <div class="marquee-item"><i class="fas fa-star"></i> E-COMMERCE ACCELERATION</div>
+        <div class="marquee-item"><i class="fas fa-building"></i> CORPORATE ENTERPRISES</div>
+        <div class="marquee-item"><i class="fas fa-video"></i> 4K CINEMATIC COMMERCIALS</div>
+        <div class="marquee-item"><i class="fas fa-chart-pie"></i> 5X ROAS PERFORMANCE ADS</div>
+        <div class="marquee-item"><i class="fas fa-rocket"></i> STARTUP GROWTH LABS</div>
+        <div class="marquee-item"><i class="fas fa-gem"></i> LUXURY REAL ESTATE</div>
+        <div class="marquee-item"><i class="fas fa-star"></i> E-COMMERCE ACCELERATION</div>
+        <div class="marquee-item"><i class="fas fa-building"></i> CORPORATE ENTERPRISES</div>
+        <div class="marquee-item"><i class="fas fa-video"></i> 4K CINEMATIC COMMERCIALS</div>
+        <div class="marquee-item"><i class="fas fa-chart-pie"></i> 5X ROAS PERFORMANCE ADS</div>
+        <div class="marquee-item"><i class="fas fa-rocket"></i> STARTUP GROWTH LABS</div>
+      </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="section intro" aria-labelledby="intro-title">
+      <div class="container intro-grid">
+        <div class="intro-copy" data-reveal>
+          <p class="eyebrow">Meet Raqeem</p>
+          <h2 class="display" id="intro-title">For brands with somewhere to go.</h2>
+          <p>The world does not need more noise. It needs brands that know what they stand for, know who they are speaking to and have the nerve to say something worth hearing.</p>
+          <p>We bring the <strong>strategic clarity</strong>, <strong>creative craft</strong> and <strong>commercial thinking</strong> to help you make that happen.</p>
+          <a class="intro-link" href="about.html">Discover our story <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="intro-card" data-reveal aria-label="Raqeem creative work">
+          <img
+            src="images/we create stories.png"
+            alt="Raqeem creative work visual"
+            class="intro-card-image"
+            loading="lazy"
+            decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="services-top" data-reveal>
+          <header class="section-heading">
+            <p class="eyebrow">What we do</p>
+            <h2 class="display" id="services-title">Everything a growing brand needs to be seen clearly.</h2>
+          </header>
+          <p class="services-note">A focused range of capabilities, brought together around one business ambition.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service" data-reveal>
+            <span class="service-icon"><i class="fa-solid fa-pen-nib" aria-hidden="true"></i></span>
+            <h3>Brand & identity</h3>
+            <p>Positioning, naming and visual systems that make your value unmistakable.</p>
+            <a class="service-link" href="branding-details.html">Explore <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="service" data-reveal>
+            <span class="service-icon"><i class="fa-solid fa-arrow-trend-up" aria-hidden="true"></i></span>
+            <h3>Campaigns & performance</h3>
+            <p>Connected ideas and media that earn attention and create measurable momentum.</p>
+            <a class="service-link" href="digital-performance.html">Explore <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="service" data-reveal>
+            <span class="service-icon"><i class="fa-solid fa-clapperboard" aria-hidden="true"></i></span>
+            <h3>Film & content</h3>
+            <p>Stories with emotional weight, designed for the channels where people actually watch.</p>
+            <a class="service-link" href="video-production.html">Explore <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="service" data-reveal>
+            <span class="service-icon"><i class="fa-solid fa-comments" aria-hidden="true"></i></span>
+            <h3>Social & community</h3>
+            <p>Social content and conversation designed to build a genuine relationship with your audience.</p>
+            <a class="service-link" href="social-media.html">Explore <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Belief -->
+    <section class="section belief" aria-labelledby="belief-title">
+      <div class="container">
+        <header class="section-heading" data-reveal>
+          <p class="eyebrow">Why Raqeem</p>
+          <h2 class="display" id="belief-title">Good ideas deserve a better way forward.</h2>
+          <p class="lede">We do our best work when the business problem and the creative opportunity are considered together.</p>
+        </header>
+        <div class="belief-grid">
+          <article class="belief-item" data-reveal>
+            <span class="belief-number">01 / Think deeply</span>
+            <h3>Find the signal</h3>
+            <p>We look for the insight that can make a brand both more distinctive and more useful.</p>
+          </article>
+          <article class="belief-item" data-reveal>
+            <span class="belief-number">02 / Make boldly</span>
+            <h3>Earn attention</h3>
+            <p>We build ideas with enough personality, craft and relevance to be noticed for the right reasons.</p>
+          </article>
+          <article class="belief-item" data-reveal>
+            <span class="belief-number">03 / Grow together</span>
+            <h3>Keep it moving</h3>
+            <p>We stay close to the work, the audience and the numbers—then make the next decision smarter.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Work -->
+    <section class="section featured" aria-labelledby="featured-title">
+      <div class="container">
+        <header class="section-heading" data-reveal>
+          <p class="eyebrow">Selected work</p>
+          <h2 class="display" id="featured-title">Recent projects we're proud of.</h2>
+        </header>
+        <div class="featured-grid">
+          <div class="work-card" data-reveal>
+            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80" alt="Brand identity for luxury hotel">
+            <div class="work-overlay">
+              <h3>Almas Resort</h3>
+              <p>Brand identity & campaign</p>
+            </div>
+          </div>
+          <div class="work-card" data-reveal>
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Digital campaign for e-commerce">
+            <div class="work-overlay">
+              <h3>Noor E-commerce</h3>
+              <p>Digital & performance</p>
+            </div>
+          </div>
+          <div class="work-card" data-reveal>
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Social media content for restaurant">
+            <div class="work-overlay">
+              <h3>Mirage Dining</h3>
+              <p>Social & content</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients Marquee -->
+    <section class="clients" aria-label="Trusted by ambitious brands">
+      <div class="container clients-inner">
+        <p class="eyebrow">Trusted by ambitious brands</p>
+      </div>
+      <div class="clients-marquee">
+        <div class="clients-track">
+          <div class="client-item"><span class="client-diamond"></span> Noor</div>
+          <div class="client-item"><span class="client-diamond"></span> Almas</div>
+          <div class="client-item"><span class="client-diamond"></span> Mirage</div>
+          <div class="client-item"><span class="client-diamond"></span> Atlas</div>
+          <div class="client-item"><span class="client-diamond"></span> Crescent</div>
+          <div class="client-item"><span class="client-diamond"></span> Aster</div>
+          <div class="client-item"><span class="client-diamond"></span> Noor</div>
+          <div class="client-item"><span class="client-diamond"></span> Almas</div>
+          <div class="client-item"><span class="client-diamond"></span> Mirage</div>
+          <div class="client-item"><span class="client-diamond"></span> Atlas</div>
+          <div class="client-item"><span class="client-diamond"></span> Crescent</div>
+          <div class="client-item"><span class="client-diamond"></span> Aster</div>
+        </div>
+        <div class="client-item"><span class="client-diamond"></span> Noor</div>
+        <div class="client-item"><span class="client-diamond"></span> Almas</div>
+        <div class="client-item"><span class="client-diamond"></span> Mirage</div>
+        <div class="client-item"><span class="client-diamond"></span> Atlas</div>
+        <div class="client-item"><span class="client-diamond"></span> Crescent</div>
+        <div class="client-item"><span class="client-diamond"></span> Aster</div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <header class="section-heading" data-reveal>
+          <p class="eyebrow">Kind words</p>
+          <h2 class="display" id="testimonials-title">What our partners say.</h2>
+        </header>
+        <div class="testimonials-grid">
+          <div class="testimonial" data-reveal>
+            <div class="quote-mark">“</div>
+            <p>Raqeem transformed our brand from a generic service into a memorable voice. The strategy was sharp, and the creative exceeded our expectations.</p>
+            <div class="client-info">
+              <div class="client-avatar">A</div>
+              <div>
+                <div class="client-name">Ahmed Al Farsi</div>
+                <div class="client-role">CEO, Noor Group</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial" data-reveal>
+            <div class="quote-mark">“</div>
+            <p>Their ability to blend data with creativity is rare. Every campaign felt both fresh and rooted in our business goals.</p>
+            <div class="client-info">
+              <div class="client-avatar">L</div>
+              <div>
+                <div class="client-name">Layla Mansour</div>
+                <div class="client-role">Marketing Director, Almas Resorts</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial" data-reveal>
+            <div class="quote-mark">“</div>
+            <p>Working with Raqeem felt like having an in-house team that truly cared. They delivered on time, on strategy, and with a level of polish we hadn't seen before.</p>
+            <div class="client-info">
+              <div class="client-avatar">O</div>
+              <div>
+                <div class="client-name">Omar Al Khatib</div>
+                <div class="client-role">Founder, Mirage Dining</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Insights -->
+    <section class="section insights" aria-labelledby="insights-title">
+      <div class="container">
+        <header class="section-heading" data-reveal>
+          <p class="eyebrow">Latest insights</p>
+          <h2 class="display" id="insights-title">Thinking that moves brands forward.</h2>
+        </header>
+        <div class="insights-grid">
+          <article class="insight-card" data-reveal>
+            <div class="insight-thumb">
+              <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" alt="Strategy team reviewing brand clarity notes" loading="lazy" decoding="async">
+            </div>
+            <div class="insight-content">
+              <span class="insight-tag">Strategy</span>
+              <h3>The Power of Clarity in a Noisy Market</h3>
+              <p>Why simplicity is the ultimate sophistication in brand communication.</p>
+              <a class="insight-link" href="blog-post.html">Read more <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="insight-card" data-reveal>
+            <div class="insight-thumb">
+              <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80" alt="Marketing team planning a campaign that converts" loading="lazy" decoding="async">
+            </div>
+            <div class="insight-content">
+              <span class="insight-tag">Campaigns</span>
+              <h3>From Insight to Impact: Building Campaigns That Convert</h3>
+              <p>We break down our process for creating performance-driven creative.</p>
+              <a class="insight-link" href="blog-post.html">Read more <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="insight-card" data-reveal>
+            <div class="insight-thumb">
+              <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=800&q=80" alt="Cinematic film camera shooting brand content" loading="lazy" decoding="async">
+            </div>
+            <div class="insight-content">
+              <span class="insight-tag">Content</span>
+              <h3>Crafting Film Content That Connects Emotionally</h3>
+              <p>Why storytelling remains the most powerful tool for brand loyalty.</p>
+              <a class="insight-link" href="blog-post.html">Read more <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" aria-labelledby="faq-title">
+      <div class="container">
+        <header class="section-heading" data-reveal>
+          <p class="eyebrow">Common questions</p>
+          <h2 class="display" id="faq-title">You might be wondering.</h2>
+        </header>
+        <div class="faq-list" data-reveal>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">How do you approach a new project? <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer">We start with a discovery phase to understand your business, audience, and goals. Then we craft a tailored strategy and creative direction before execution.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">What industries do you specialize in? <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer">We have experience across hospitality, retail, tech, real estate, and more. Our strategic framework adapts to any sector.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">How long does a typical brand identity project take? <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer">Depending on scope, a full identity can take 4–8 weeks. We provide a detailed timeline after the discovery phase.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container cta-content" data-reveal>
+        <p class="eyebrow">Let’s make a mark</p>
+        <h2 class="display" id="cta-title">The right next move starts with a conversation.</h2>
+        <p>Tell us where you are headed. We will help you find the story, strategy and creative expression to get there.</p>
+        <div class="cta-actions">
+          <a class="button button-primary" href="contact.html">Start a project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a class="button button-secondary" href="about.html">Meet Raqeem</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="Raqeem Advertising Services home">
+          <img src="images/Raqeem-Advertising-Logo - Copy.png" width="45" height="45" alt="">
+          <span>
+            <span class="brand-name">RAQEEM<span class="gold">.</span></span>
+            <span class="brand-caption">Advertising Services</span>
+          </span>
+        </a>
+        <p>A Dubai-based creative and growth partner for brands ready to make a lasting mark.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/share/1DhypmR8Ns/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/raqeemuae?stkn=MXV1ZWZrcWY5cmFyag==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://linkedin.com/company/raqeemuae" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://x.com/raqeemuae?s=11" target="_blank" rel="noopener" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://youtube.com/@raqeemuae" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/@raqeemuae?_r=1&_t=ZS-99Z5jsOhKEs" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div>
+        <h2 class="footer-title">Explore</h2>
+        <ul class="footer-links">
+          <li><a href="about.html">About Raqeem</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Insights</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">Quick Links</h2>
+        <ul class="footer-links">
+          <li><a href="contact.html">Start a project</a></li>
+          <li><a href="about.html">Our team</a></li>
+          <li><a href="portfolio.html">Case studies</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">Contact</h2>
+        <div class="footer-contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:raqeemuae@gmail.com">raqeemuae@gmail.com</a>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Dubai, United Arab Emirates</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+971 564677800">+971 564677800</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Raqeem Advertising Services. All rights reserved.</span>
+      <a href="contact.html">Let’s work together <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <script>
+    (() => {
+      const preloader = document.getElementById('preloader');
+      const preloaderVideo = document.getElementById('preloaderVideo');
+      const preloaderSkip = document.getElementById('preloaderSkip');
+      let preloaderHidden = false;
+
+      const hidePreloader = () => {
+        if (preloaderHidden) return;
+        preloaderHidden = true;
+        preloader.classList.add('hidden');
+        if (preloaderVideo) preloaderVideo.pause();
+        setTimeout(() => {
+          if (preloader.parentNode) preloader.parentNode.removeChild(preloader);
+        }, 700);
+      };
+
+      if (preloaderVideo) {
+        preloaderVideo.addEventListener('ended', hidePreloader);
+        preloaderVideo.addEventListener('error', () => {
+          console.warn('Loading video failed to load. Skipping preloader.');
+          hidePreloader();
+        });
+        preloaderVideo.addEventListener('stalled', () => {
+          setTimeout(() => {
+            if (preloaderVideo.readyState < 2 && !preloaderHidden) {
+              console.warn('Loading video stalled. Skipping preloader.');
+              hidePreloader();
+            }
+          }, 5000);
+        });
+        const playPromise = preloaderVideo.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {
+            console.warn('Autoplay blocked. Waiting for user interaction to start preloader video.');
+            const startVideoOnInteraction = () => {
+              preloaderVideo.play().catch(() => {
+                hidePreloader();
+              });
+              document.removeEventListener('click', startVideoOnInteraction);
+              document.removeEventListener('touchstart', startVideoOnInteraction);
+              document.removeEventListener('keydown', startVideoOnInteraction);
+            };
+            document.addEventListener('click', startVideoOnInteraction);
+            document.addEventListener('touchstart', startVideoOnInteraction);
+            document.addEventListener('keydown', startVideoOnInteraction);
+          });
+        }
+      }
+
+      if (preloaderSkip) {
+        preloaderSkip.addEventListener('click', hidePreloader);
+      }
+
+      setTimeout(hidePreloader, 20000);
+
+      const header = document.querySelector('.site-header');
+      const setHeaderState = () => header.classList.toggle('is-scrolled', window.scrollY > 18);
+      setHeaderState();
+      window.addEventListener('scroll', setHeaderState, { passive: true });
+
+      const toggle = document.querySelector('.menu-toggle');
+      const menu = document.querySelector('.nav-list');
+      const closeMenu = () => {
+        menu.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open navigation menu');
+        header.classList.remove('menu-open');
+      };
+      toggle.addEventListener('click', () => {
+        const open = menu.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', String(open));
+        toggle.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+        header.classList.toggle('menu-open', open);
+      });
+      menu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+      document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
+
+      const backToTop = document.getElementById('backToTop');
+      window.addEventListener('scroll', () => {
+        backToTop.classList.toggle('visible', window.scrollY > 500);
+      });
+      backToTop.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      document.querySelectorAll('.faq-question').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const item = btn.parentElement;
+          const isOpen = item.classList.contains('open');
+          document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+          if (!isOpen) item.classList.add('open');
+          btn.setAttribute('aria-expanded', !isOpen);
+        });
+      });
+
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: .12 });
+        document.querySelectorAll('[data-reveal]').forEach(el => observer.observe(el));
+      } else {
+        document.querySelectorAll('[data-reveal]').forEach(el => el.classList.add('is-visible'));
+      }
+    })();
+  </script>
+</body>
+</html>

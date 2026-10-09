@@ -1,0 +1,950 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campaigns & Performance | Raqeem Advertising Services Dubai</title>
+  <meta name="description" content="Performance marketing from Raqeem: paid media, search, conversion optimisation and measurement built around one commercial target.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#17130f">
+  <link rel="canonical" href="https://raqeemadvertising.com/digital-performance.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Campaigns & Performance | Raqeem Advertising Services">
+  <meta property="og:description" content="Connected ideas and media that earn attention and create measurable momentum.">
+  <meta property="og:url" content="https://raqeemadvertising.com/digital-performance.html">
+  <meta property="og:image" content="https://raqeemadvertising.com/images/Raqeem-Advertising-Logo%20-%20Copy.png">
+  <link rel="icon" type="image/png" href="images/Raqeem-Advertising-Logo - Copy.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Campaigns & Performance","provider":{"@type":"AdvertisingAgency","name":"Raqeem Advertising Services","address":{"@type":"PostalAddress","addressLocality":"Dubai","addressCountry":"AE"}},"areaServed":"United Arab Emirates","description":"Paid media, search, conversion optimisation and measurement for ambitious brands."}</script>
+  <style>
+    :root {
+      --ink: #181411;
+      --ink-soft: #3f3934;
+      --paper: #f8f6f2;
+      --paper-deep: #eeeae2;
+      --white: #fffdf9;
+      --gold: #c28d42;
+      --gold-light: #e7c487;
+      --red: #b21826;
+      --line: rgba(37, 29, 22, .14);
+      --shadow: 0 24px 70px rgba(43, 31, 20, .1);
+      --display: "Playfair Display", Georgia, serif;
+      --body: "Manrope", Arial, sans-serif;
+      --mono: "DM Mono", monospace;
+      --wrap: 1200px;
+      --ease: cubic-bezier(.2, .7, .2, 1);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: var(--body);
+      font-size: 16px;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+    button { color: inherit; font: inherit; }
+    img { display: block; max-width: 100%; }
+    :focus-visible { outline: 3px solid var(--gold-light); outline-offset: 4px; }
+    .container { width: min(var(--wrap), calc(100% - 48px)); margin: 0 auto; }
+    .section { padding: clamp(82px, 10vw, 144px) 0; }
+    .display { margin: 0; font-family: var(--display); font-weight: 700; letter-spacing: -.045em; line-height: 1.03; }
+    .gold { color: var(--gold); }
+    .skip-link { position: fixed; z-index: 100; top: -60px; left: 16px; padding: 10px 14px; border-radius: 0 0 7px 7px; color: var(--ink); background: var(--gold-light); font-weight: 800; transition: top .2s ease; }
+    .skip-link:focus { top: 0; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; margin: 0 0 18px; color: var(--gold); font: 500 .73rem/1 var(--mono); letter-spacing: .11em; text-transform: uppercase; }
+    .eyebrow:before { width: 28px; height: 1px; content: ""; background: currentColor; }
+    .lede { max-width: 600px; margin: 23px 0 0; color: var(--ink-soft); font-size: 1.15rem; line-height: 1.8; }
+    .section-heading { max-width: 730px; }
+    .section-heading .display { font-size: clamp(2.4rem, 5vw, 4.65rem); }
+
+    /* ========== VIDEO PRELOADER ========== */
+    .preloader {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      transition: opacity .65s ease, visibility .65s ease;
+    }
+    .preloader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+    .preloader-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+    .preloader-skip {
+      position: absolute; bottom: 30px; right: 30px; z-index: 2;
+      padding: 10px 18px; border: 1px solid rgba(255,255,255,.3); border-radius: 2px;
+      background: rgba(0,0,0,.5); color: #fff; font-size: .8rem; font-weight: 700;
+      letter-spacing: .06em; cursor: pointer; transition: background .2s ease, border-color .2s ease;
+    }
+    .preloader-skip:hover { background: rgba(194,141,66,.7); border-color: var(--gold-light); }
+
+    /* Header */
+    .site-header {
+      position: fixed; z-index: 50; top: 0; right: 0; left: 0;
+      border-bottom: 1px solid transparent; color: #fffaf2;
+      transition: background-color .25s ease, color .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .site-header.is-scrolled, .site-header.menu-open {
+      color: var(--ink); border-color: var(--line);
+      background: rgba(255, 253, 249, .96); box-shadow: 0 8px 30px rgba(28, 19, 11, .06);
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; min-height: 84px; gap: 26px; }
+    .brand { display: inline-flex; flex: 0 0 auto; align-items: center; gap: 10px; }
+    .brand img { width: 39px; height: 39px; object-fit: contain; }
+    .brand-name { display: block; font-size: 1.3rem; font-weight: 800; letter-spacing: .11em; line-height: 1; }
+    .brand-caption { display: block; margin-top: 5px; font: 400 .7rem/1 var(--mono); letter-spacing: .11em; opacity: .72; text-transform: uppercase; }
+    .nav-list { display: flex; align-items: center; gap: clamp(14px, 2vw, 29px); padding: 0; margin: 0 0 0 auto; list-style: none; font-size: 1.05rem; font-weight: 700; }
+    .nav-list a { position: relative; padding: 8px 0; opacity: .77; transition: opacity .2s ease, color .2s ease; }
+    .nav-list a:hover, .nav-list a[aria-current="page"] { color: var(--gold); opacity: 1; }
+    .nav-list a[aria-current="page"]:after { position: absolute; right: 0; bottom: 0; left: 0; height: 2px; content: ""; background: currentColor; }
+    .nav-cta, .button { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 21px; border: 1px solid transparent; border-radius: 2px; font-size: .9rem; font-weight: 800; letter-spacing: .01em; transition: transform .2s ease, background .2s ease, color .2s ease, border-color .2s ease; }
+    .nav-cta { min-height: 42px; padding: 0 16px; color: var(--ink); background: var(--gold-light); font-size: .95rem; }
+    .button-primary { color: #fff; background: var(--red); box-shadow: 0 10px 24px rgba(178, 24, 38, .18); }
+    .button-secondary { color: var(--ink); border-color: rgba(24, 20, 17, .35); background: transparent; }
+    .button:hover, .nav-cta:hover { transform: translateY(-2px); }
+    .button-primary:hover { background: #921421; }
+    .button-secondary:hover { border-color: var(--gold); color: var(--gold); }
+    .menu-toggle { display: none; width: 44px; height: 44px; padding: 0; border: 0; color: inherit; background: transparent; }
+    .menu-toggle span { display: block; width: 23px; height: 2px; margin: 5px auto; background: currentColor; transition: transform .2s ease, opacity .2s ease; }
+    .menu-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .menu-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+    .menu-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* ============================================================
+       HERO  —  page variant
+       Background: linear-gradient(135deg, #8F101A, #D4A24C)
+       Video box removed — content now spans full width.
+       ============================================================ */
+    .hero {
+      position: relative;
+      display: grid;
+      align-items: center;
+      min-height: 100svh;
+      padding: clamp(118px, 14vh, 152px) 0 clamp(64px, 8vh, 92px);
+      margin: 0;
+      color: #fffaf2;
+      background: linear-gradient(135deg, #8F101A, #D4A24C);
+      isolation: isolate;
+      overflow: hidden;
+      border-bottom: 1px solid rgba(231, 196, 135, .18);
+    }
+    .hero:before {
+      position: absolute;
+      z-index: -2;
+      inset: 0;
+      content: "";
+      background:
+        radial-gradient(ellipse at 50% 42%, transparent 34%, rgba(60, 5, 12, .40) 100%),
+        radial-gradient(circle at 78% 26%, rgba(231, 196, 135, .20), transparent 0 26%),
+        radial-gradient(circle at 14% 90%, rgba(143, 16, 26, .20), transparent 0 30%),
+        radial-gradient(circle at 58% 104%, rgba(104, 8, 19, .35), transparent 0 28%);
+    }
+    .hero:after {
+      position: absolute;
+      z-index: -1;
+      top: -21vw;
+      right: -7vw;
+      width: min(660px, 64vw);
+      aspect-ratio: 1;
+      content: "";
+      border: 1px solid rgba(231, 196, 135, .28);
+      border-radius: 50%;
+      box-shadow:
+        0 0 0 74px rgba(231, 196, 135, .04),
+        0 0 0 150px rgba(231, 196, 135, .022);
+      animation: ringFloat 16s ease-in-out infinite;
+    }
+    @keyframes ringFloat {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50%      { transform: translateY(-20px) rotate(3deg); }
+    }
+    /* Single-column hero grid (video removed) */
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      gap: 65px;
+      max-width: 940px;
+    }
+    .hero .eyebrow { color: var(--gold-light); }
+    .hero-title { max-width: 880px; font-size: clamp(3.45rem, 7.7vw, 7.7rem); text-shadow: 0 26px 60px rgba(60, 5, 12, .45); }
+    .hero-title em { color: var(--gold-light); font-style: italic; text-shadow: 0 0 46px rgba(231, 196, 135, .40); }
+    .hero .lede { color: rgba(255, 250, 242, .82); }
+    .hero-actions, .cta-actions { display: flex; flex-wrap: wrap; gap: 13px; margin-top: 34px; }
+    .hero .button-secondary { color: #fffaf2; border-color: rgba(255, 250, 242, .44); }
+    .hero .button-secondary:hover { border-color: var(--gold-light); color: var(--gold-light); }
+    .scroll-cue-center { position: absolute; bottom: 26px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 8px; color: rgba(255, 250, 242, .55); font: .62rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; z-index: 2; }
+    .scroll-cue-center i { color: var(--gold-light); font-size: .8rem; animation: bounce 2s infinite; }
+    @keyframes bounce { 0%, 20%, 50%, 80%, 100% { transform: translateY(0); } 40% { transform: translateY(-5px); } 60% { transform: translateY(-3px); } }
+
+    /* Marquee */
+    .marquee-section { background: var(--ink); padding: 22px 0; border-top: 1px solid rgba(255,250,242,.1); border-bottom: 1px solid rgba(255,250,242,.1); overflow: hidden; position: relative; }
+    .marquee-track { display: flex; width: max-content; animation: marquee 25s linear infinite; }
+    .marquee-item { display: inline-flex; align-items: center; gap: 14px; padding: 0 30px; font-family: var(--mono); font-size: .85rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--gold-light); white-space: nowrap; }
+    .marquee-item i { font-size: 1rem; color: var(--gold); }
+    @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+    /* Intro */
+    .intro { background: var(--paper); }
+    .intro-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(345px, .88fr); align-items: center; gap: clamp(45px, 9vw, 130px); }
+    .intro-copy .display { font-size: clamp(2.6rem, 5vw, 4.7rem); }
+    .intro-copy p { max-width: 585px; margin: 22px 0 0; color: var(--ink-soft); font-size: 1.05rem; }
+    .intro-copy p strong { color: var(--ink); }
+    .intro-link { display: inline-flex; align-items: center; gap: 10px; margin-top: 31px; color: var(--red); font-size: .9rem; font-weight: 800; }
+    .intro-link:hover { color: var(--gold); }
+    .intro-card { position: relative; aspect-ratio: 16 / 10; background: var(--ink); box-shadow: var(--shadow); overflow: hidden; border-radius: 6px; border: 1px solid rgba(231, 196, 135, .22); isolation: isolate; }
+    .intro-card:before { position: absolute; top: -10%; right: -20%; width: 68%; aspect-ratio: 1; content: ""; border: 1px solid rgba(231, 196, 135, .30); border-radius: 50%; box-shadow: 0 0 0 34px rgba(231, 196, 135, .06), 0 0 0 70px rgba(231, 196, 135, .035); z-index: 2; pointer-events: none; }
+    .intro-card:after { position: absolute; inset: 0; content: ""; background: linear-gradient(180deg, rgba(24, 20, 17, .10) 0%, transparent 45%, rgba(24, 20, 17, .22) 100%); z-index: 1; pointer-events: none; }
+    .intro-card-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: .85; filter: grayscale(10%) contrast(1.05); transition: transform 1.4s var(--ease); will-change: transform; }
+    .intro-card:hover .intro-card-image { transform: scale(1.04); }
+
+    /* ============================================================
+       Capabilities — now a horizontal marquee
+       ============================================================ */
+    .capabilities { background: var(--white); overflow: hidden; }
+    .services-top { display: flex; align-items: end; justify-content: space-between; gap: 35px; }
+    .services-note { max-width: 300px; margin: 0 0 7px; color: var(--ink-soft); font-size: .95rem; }
+
+    /* Marquee wrapper with soft fade edges */
+    .cap-marquee {
+      position: relative;
+      margin-top: 59px;
+      overflow: hidden;
+      padding: 12px 0 26px;
+      -webkit-mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+      mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+    }
+    .cap-track {
+      display: flex;
+      gap: 18px;
+      width: max-content;
+      animation: capScroll 50s linear infinite;
+    }
+    .cap-marquee:hover .cap-track { animation-play-state: paused; }
+    @keyframes capScroll {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .cap {
+      position: relative;
+      flex: 0 0 360px;
+      min-height: 285px;
+      padding: 34px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      transition: background .25s ease, transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    }
+    .cap:hover { z-index: 1; background: #fcf5e9; transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,.08); border-color: rgba(194,141,66,.4); }
+    .cap-icon { display: grid; width: 43px; height: 43px; place-items: center; color: var(--red); border: 1px solid rgba(178, 24, 38, .26); border-radius: 50%; font-size: .92rem; transition: transform .3s ease, background .3s ease; }
+    .cap:hover .cap-icon { transform: rotate(10deg) scale(1.05); background: rgba(194,141,66,.1); }
+    .cap h3 { margin: 32px 0 10px; font-family: var(--display); font-size: clamp(1.45rem, 2.3vw, 1.85rem); letter-spacing: -.04em; }
+    .cap p { max-width: 430px; margin: 0; color: var(--ink-soft); font-size: .94rem; }
+    .cap-tag { position: absolute; right: 34px; bottom: 28px; color: var(--gold); font: 500 .68rem/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+
+    /* Stats band */
+    .stats { background: var(--ink); color: #fffaf2; padding: clamp(54px, 7vw, 82px) 0; position: relative; overflow: hidden; }
+    .stats:before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; }
+    .stat { padding-left: 24px; border-left: 1px solid rgba(255,250,242,.14); }
+    .stat:first-child { padding-left: 0; border-left: 0; }
+    .stat-num { font-family: var(--display); font-weight: 700; font-size: clamp(2.3rem, 4.4vw, 3.5rem); line-height: 1; letter-spacing: -.045em; color: var(--gold-light); }
+    .stat-label { margin: 12px 0 0; font-size: .88rem; color: rgba(255,250,242,.66); max-width: 220px; }
+
+    /* Channels */
+    .channels { background: var(--paper-deep); }
+    .channel-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 55px; }
+    .channel {
+      display: flex; align-items: center; gap: 14px;
+      padding: 20px 22px; background: var(--white);
+      border: 1px solid var(--line); border-radius: 3px;
+      font-weight: 700; font-size: .95rem;
+      transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease, color .25s ease;
+    }
+    .channel i { color: var(--gold); font-size: 1.05rem; width: 20px; text-align: center; transition: color .25s ease; }
+    .channel:hover { transform: translateY(-4px); border-color: rgba(194,141,66,.5); box-shadow: 0 14px 30px rgba(43,31,20,.09); color: var(--red); }
+    .channel:hover i { color: var(--red); }
+
+    /* Method */
+    .method { background: var(--paper); }
+    .method-top { display: flex; align-items: end; justify-content: space-between; gap: 40px; }
+    .method-note { max-width: 293px; margin: 0 0 7px; color: var(--ink-soft); font-size: .95rem; }
+    .method-list { margin-top: 55px; border-top: 1px solid var(--line); }
+    .method-item { display: grid; grid-template-columns: 96px 1.1fr 1.5fr; gap: 30px; align-items: baseline; padding: 29px 0; border-bottom: 1px solid var(--line); transition: padding .25s ease, background .25s ease; }
+    .method-item:hover { padding-right: 18px; padding-left: 18px; background: rgba(194, 141, 66, .055); }
+    .method-index { color: var(--gold); font: 500 .72rem/1 var(--mono); letter-spacing: .1em; }
+    .method-item h3 { margin: 0; font-family: var(--display); font-size: 1.55rem; letter-spacing: -.03em; }
+    .method-item p { margin: 0; color: var(--ink-soft); font-size: .95rem; }
+
+    /* Results */
+    .results { background: var(--white); }
+    .results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin-top: 60px; }
+    .result-card { position: relative; overflow: hidden; border-radius: 4px; background: var(--ink); border: 1px solid var(--line); }
+    .result-media { position: relative; aspect-ratio: 4/3; overflow: hidden; }
+    .result-media img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+    .result-card:hover .result-media img { transform: scale(1.05); }
+    .result-media:after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(24,20,17,.72), transparent 62%); }
+    .result-metric { position: absolute; left: 22px; bottom: 18px; z-index: 2; color: #fffaf2; }
+    .result-metric strong { display: block; font-family: var(--display); font-size: 2.1rem; line-height: 1; letter-spacing: -.04em; color: var(--gold-light); }
+    .result-metric span { font: 500 .64rem/1.4 var(--mono); letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+    .result-body { padding: 24px 24px 28px; background: var(--white); }
+    .result-body h3 { margin: 0 0 6px; font-family: var(--display); font-size: 1.35rem; letter-spacing: -.02em; }
+    .result-body p { margin: 0; color: var(--ink-soft); font-size: .92rem; }
+
+    /* FAQ */
+    .faq { background: var(--paper); }
+    .faq-list { max-width: 800px; margin: 60px auto 0; }
+    .faq-item { border-bottom: 1px solid var(--line); }
+    .faq-question { width: 100%; background: none; border: none; padding: 20px 0; font-weight: 700; font-size: 1.05rem; display: flex; justify-content: space-between; align-items: center; cursor: pointer; text-align: left; gap: 20px; }
+    .faq-question i { transition: transform .3s ease; color: var(--gold); flex-shrink: 0; }
+    .faq-item.open .faq-question i { transform: rotate(180deg); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height .3s ease; color: var(--ink-soft); font-size: .95rem; }
+    .faq-item.open .faq-answer { max-height: 260px; }
+    .faq-answer p { margin: 0 0 20px; }
+
+    /* CTA */
+    .cta { position: relative; padding: clamp(83px, 11vw, 155px) 0; color: #fffaf2; background: var(--red); overflow: hidden; }
+    .cta:before { position: absolute; top: -23vw; right: -13vw; width: min(680px, 66vw); aspect-ratio: 1; content: ""; border: 1px solid rgba(255, 255, 255, .19); border-radius: 50%; box-shadow: 0 0 0 70px rgba(255, 255, 255, .045), 0 0 0 150px rgba(255, 255, 255, .03); }
+    .cta:after { position: absolute; right: 0; bottom: 0; left: 0; height: 38%; content: ""; background: linear-gradient(transparent, rgba(92, 7, 14, .28)); }
+    .cta-content { position: relative; z-index: 1; max-width: 790px; }
+    .cta .eyebrow { color: #ffe7b4; }
+    .cta .display { font-size: clamp(2.9rem, 6vw, 5.8rem); }
+    .cta p { max-width: 595px; margin: 23px 0 0; color: rgba(255, 250, 242, .81); font-size: 1.1rem; }
+    .cta .button-primary { color: var(--ink); background: var(--gold-light); box-shadow: none; }
+    .cta .button-primary:hover { background: #ffe0a2; }
+    .cta .button-secondary { color: #fffaf2; border-color: rgba(255, 250, 242, .55); }
+
+    /* Footer */
+    .site-footer { background: #14110f; color: rgba(255,250,242,.75); position: relative; overflow: hidden; }
+    .site-footer::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1.2fr; gap: 50px; padding: 80px 0 60px; }
+    .footer-brand { max-width: 350px; }
+    .footer-brand .brand { display: inline-flex; align-items: center; gap: 12px; color: #fffaf2; }
+    .footer-brand .brand img { width: 45px; height: 45px; object-fit: contain; }
+    .footer-brand .brand-name { font-size: 1.4rem; }
+    .footer-brand p { margin: 20px 0 0; font-size: .95rem; color: rgba(255,250,242,.6); line-height: 1.7; }
+    .footer-title { margin: 0 0 20px; color: var(--gold-light); font: 500 .7rem/1.3 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+    .footer-links { padding: 0; margin: 0; list-style: none; }
+    .footer-links li + li { margin-top: 12px; }
+    .footer-links a { font-size: .95rem; color: rgba(255,250,242,.65); transition: color .2s ease, padding-left .2s ease; display: inline-flex; align-items: center; }
+    .footer-links a:hover { color: var(--gold-light); padding-left: 5px; }
+    .footer-contact-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 15px; font-size: .9rem; color: rgba(255,250,242,.65); }
+    .footer-contact-item i { color: var(--gold); font-size: 1rem; margin-top: 3px; width: 18px; text-align: center; }
+    .footer-social { display: flex; gap: 12px; margin-top: 25px; flex-wrap: wrap; }
+    .footer-social a { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,.04); color: rgba(255,250,242,.7); border: 1px solid rgba(255,250,242,.1); transition: all .3s ease; font-size: 1rem; }
+    .footer-social a:hover { background: var(--gold); border-color: var(--gold); color: #14110f; transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,.3); }
+    .footer-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; padding: 25px 0; border-top: 1px solid rgba(255,250,242,.08); font-size: .85rem; color: rgba(255,250,242,.45); }
+    .footer-bottom a { color: rgba(255,250,242,.6); transition: color .2s ease; }
+    .footer-bottom a:hover { color: var(--gold-light); }
+    .back-to-top { position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px; background: var(--gold); color: var(--ink); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow); opacity: 0; visibility: hidden; transition: opacity .3s ease, visibility .3s ease; z-index: 20; }
+    .back-to-top.visible { opacity: 1; visibility: visible; }
+    .back-to-top:hover { background: var(--gold-light); }
+
+    /* Reveal animations */
+    [data-reveal] { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s var(--ease); }
+    [data-reveal].is-visible { opacity: 1; transform: none; }
+
+    @media (max-width: 1100px) {
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 40px; }
+      .footer-brand { grid-column: 1 / -1; max-width: none; }
+      .channel-grid { grid-template-columns: repeat(3, 1fr); }
+      .stats-grid { grid-template-columns: 1fr 1fr; gap: 38px 30px; }
+      .stat:nth-child(3) { padding-left: 0; border-left: 0; }
+    }
+    @media (max-width: 900px) {
+      .nav-list { gap: 15px; }
+      .nav-cta { display: none; }
+      .hero-grid, .intro-grid { grid-template-columns: 1fr; }
+      .hero-grid { gap: 42px; }
+      .scroll-cue-center { display: none; }
+      .intro-grid { gap: 50px; }
+      .results-grid { grid-template-columns: 1fr 1fr; }
+      .method-item { grid-template-columns: 70px 1fr; }
+      .method-item p { grid-column: 2; }
+    }
+    @media (max-width: 680px) {
+      .container { width: min(100% - 36px, var(--wrap)); }
+      .nav { min-height: 70px; }
+      .brand img { width: 34px; height: 34px; }
+      .nav-list { position: absolute; top: 70px; right: 0; left: 0; display: grid; gap: 0; max-height: 0; padding: 0 18px; visibility: hidden; overflow: hidden; border-bottom: 1px solid transparent; background: var(--white); opacity: 0; transition: max-height .3s ease, padding .3s ease, opacity .2s ease, visibility .3s; }
+      .nav-list.is-open { max-height: 430px; padding-top: 11px; padding-bottom: 16px; visibility: visible; border-color: var(--line); opacity: 1; }
+      .nav-list li { border-bottom: 1px solid var(--line); }
+      .nav-list li:last-child { border: 0; }
+      .nav-list a { display: block; padding: 13px 0; color: var(--ink); opacity: 1; }
+      .nav-list a[aria-current="page"]:after { display: none; }
+      .menu-toggle { display: block; }
+      .hero { min-height: 100svh; padding-top: 108px; padding-bottom: 54px; }
+      .hero-grid { align-items: start; }
+      .hero-title { font-size: clamp(3.1rem, 14.5vw, 4.6rem); }
+      .lede { font-size: 1rem; }
+      .hero-actions, .cta-actions { display: grid; grid-template-columns: 1fr; }
+      .hero-actions .button, .cta-actions .button { width: 100%; }
+      .services-top, .method-top { display: block; }
+      .services-note, .method-note { margin-top: 18px; }
+      .results-grid, .channel-grid { grid-template-columns: 1fr; }
+      .cap { flex: 0 0 280px; min-height: 250px; padding: 26px; }
+      .cap-marquee { margin-top: 42px; }
+      .stats-grid { grid-template-columns: 1fr; gap: 30px; }
+      .stat { padding-left: 18px; }
+      .stat:first-child { padding-left: 0; }
+      .stat:nth-child(3) { padding-left: 18px; border-left: 1px solid rgba(255,250,242,.14); }
+      .method-item { grid-template-columns: 49px 1fr; gap: 14px; }
+      .method-item p { grid-column: 1 / -1; padding-left: 63px; }
+      .footer-top { grid-template-columns: 1fr; gap: 35px; }
+      .footer-brand { max-width: 100%; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; gap: 10px; }
+      .back-to-top { bottom: 20px; right: 20px; }
+      .marquee-item { font-size: .75rem; padding: 0 15px; }
+      .preloader-skip { bottom: 20px; right: 20px; }
+    }
+    @media (max-width: 390px) {
+      .brand-caption { display: none; }
+      .footer-top { grid-template-columns: 1fr; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *:before, *:after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+      [data-reveal] { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Video Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <video class="preloader-video" id="preloaderVideo" autoplay muted playsinline preload="auto">
+      <source src="videos/Loading page.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <button class="preloader-skip" id="preloaderSkip" type="button" aria-label="Skip loading video">Skip intro <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+  </div>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Raqeem Advertising Services home">
+        <img src="images/Raqeem-Advertising-Logo - Copy.png" width="39" height="39" alt="">
+        <span>
+          <span class="brand-name">RAQEEM<span class="gold">.</span></span>
+          <span class="brand-caption">Advertising Services</span>
+        </span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list" id="primary-navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" aria-current="page">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="nav-cta" href="contact.html">Start a project <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero (video box removed — full-width content) -->
+    <section class="hero" aria-labelledby="page-title">
+      <div class="container hero-grid">
+        <div data-reveal>
+          <p class="eyebrow">Campaigns &amp; Performance · Dubai</p>
+          <h1 class="display hero-title" id="page-title">Attention is only the <em>beginning.</em></h1>
+          <p class="lede">We build campaigns that earn the click, hold the interest and turn it into revenue you can point to on a dashboard.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="contact.html">Request a media audit <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            <a class="button button-secondary" href="#capabilities">See our capabilities <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <span class="scroll-cue-center" aria-hidden="true">Scroll to discover <i class="fa-solid fa-arrow-down"></i></span>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee-section" aria-label="Performance specialisms">
+      <div class="marquee-track">
+        <div class="marquee-item"><i class="fas fa-chart-pie"></i> 5X ROAS PERFORMANCE ADS</div>
+        <div class="marquee-item"><i class="fas fa-magnifying-glass"></i> SEARCH &amp; PERFORMANCE MAX</div>
+        <div class="marquee-item"><i class="fas fa-bullseye"></i> FULL-FUNNEL MEDIA PLANNING</div>
+        <div class="marquee-item"><i class="fas fa-flask"></i> CREATIVE TESTING AT SCALE</div>
+        <div class="marquee-item"><i class="fas fa-gauge-high"></i> CONVERSION RATE OPTIMISATION</div>
+        <div class="marquee-item"><i class="fas fa-database"></i> CLEAN MEASUREMENT &amp; TRACKING</div>
+        <div class="marquee-item"><i class="fas fa-chart-pie"></i> 5X ROAS PERFORMANCE ADS</div>
+        <div class="marquee-item"><i class="fas fa-magnifying-glass"></i> SEARCH &amp; PERFORMANCE MAX</div>
+        <div class="marquee-item"><i class="fas fa-bullseye"></i> FULL-FUNNEL MEDIA PLANNING</div>
+        <div class="marquee-item"><i class="fas fa-flask"></i> CREATIVE TESTING AT SCALE</div>
+        <div class="marquee-item"><i class="fas fa-gauge-high"></i> CONVERSION RATE OPTIMISATION</div>
+        <div class="marquee-item"><i class="fas fa-database"></i> CLEAN MEASUREMENT &amp; TRACKING</div>
+      </div>
+    </section>
+
+    <!-- Intro / Approach (image updated to an Unsplash photo) -->
+    <section class="section intro" aria-labelledby="intro-title">
+      <div class="container intro-grid">
+        <div class="intro-copy" data-reveal>
+          <p class="eyebrow">The approach</p>
+          <h2 class="display" id="intro-title">Great media buys nothing if the idea is weak.</h2>
+          <p>Performance is not a channel decision. It is the result of a sharp proposition, creative that stops the scroll and a media structure that knows exactly what it is buying.</p>
+          <p>We bring <strong>strategy</strong>, <strong>creative</strong> and <strong>media</strong> into one loop — so every dirham spent teaches you something the next campaign can use.</p>
+          <a class="intro-link" href="contact.html">Book a discovery call <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="intro-card" data-reveal aria-label="Performance marketing analytics">
+          <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+            alt="Campaign performance dashboard showing analytics and growth metrics"
+            class="intro-card-image"
+            loading="lazy"
+            decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <!-- Capabilities — now a horizontal marquee -->
+    <section class="section capabilities" id="capabilities" aria-labelledby="capabilities-title">
+      <div class="container">
+        <div class="services-top" data-reveal>
+          <header class="section-heading">
+            <p class="eyebrow">What we do</p>
+            <h2 class="display" id="capabilities-title">Everything needed to turn spend into momentum.</h2>
+          </header>
+          <p class="services-note">Six disciplines, run as one system rather than six separate retainers.</p>
+        </div>
+      </div>
+
+      <div class="cap-marquee" aria-label="Our capabilities">
+        <div class="cap-track">
+          <!-- Set 1 -->
+          <article class="cap">
+            <span class="cap-icon"><i class="fa-solid fa-bullseye" aria-hidden="true"></i></span>
+            <h3>Paid media</h3>
+            <p>Meta, Google, TikTok, Snapchat and LinkedIn campaigns structured around a single commercial target — not vanity metrics.</p>
+            <span class="cap-tag">01</span>
+          </article>
+          <article class="cap">
+            <span class="cap-icon"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></span>
+            <h3>Search &amp; SEO</h3>
+            <p>Technical fixes, content architecture and local search work that compounds quietly in the background.</p>
+            <span class="cap-tag">02</span>
+          </article>
+          <article class="cap">
+            <span class="cap-icon"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></span>
+            <h3>Conversion &amp; CRO</h3>
+            <p>Landing pages, funnels and structured testing that lift the value of the traffic you already have.</p>
+            <span class="cap-tag">03</span>
+          </article>
+          <article class="cap">
+            <span class="cap-icon"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
+            <h3>Measurement &amp; analytics</h3>
+            <p>Tracking, attribution and dashboards that show what actually happened — in language a board can read.</p>
+            <span class="cap-tag">04</span>
+          </article>
+          <article class="cap">
+            <span class="cap-icon"><i class="fa-solid fa-envelope-open-text" aria-hidden="true"></i></span>
+            <h3>Lifecycle &amp; CRM</h3>
+            <p>Email, WhatsApp and retention flows that keep customers close long after the first purchase.</p>
+            <span class="cap-tag">05</span>
+          </article>
+          <article class="cap">
+            <span class="cap-icon"><i class="fa-solid fa-flask" aria-hidden="true"></i></span>
+            <h3>Creative testing</h3>
+            <p>A constant flow of concepts, hooks and formats, tested against real results rather than opinion.</p>
+            <span class="cap-tag">06</span>
+          </article>
+
+          <!-- Set 2 (duplicate for seamless loop) -->
+          <article class="cap" aria-hidden="true">
+            <span class="cap-icon"><i class="fa-solid fa-bullseye" aria-hidden="true"></i></span>
+            <h3>Paid media</h3>
+            <p>Meta, Google, TikTok, Snapchat and LinkedIn campaigns structured around a single commercial target — not vanity metrics.</p>
+            <span class="cap-tag">01</span>
+          </article>
+          <article class="cap" aria-hidden="true">
+            <span class="cap-icon"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></span>
+            <h3>Search &amp; SEO</h3>
+            <p>Technical fixes, content architecture and local search work that compounds quietly in the background.</p>
+            <span class="cap-tag">02</span>
+          </article>
+          <article class="cap" aria-hidden="true">
+            <span class="cap-icon"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></span>
+            <h3>Conversion &amp; CRO</h3>
+            <p>Landing pages, funnels and structured testing that lift the value of the traffic you already have.</p>
+            <span class="cap-tag">03</span>
+          </article>
+          <article class="cap" aria-hidden="true">
+            <span class="cap-icon"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
+            <h3>Measurement &amp; analytics</h3>
+            <p>Tracking, attribution and dashboards that show what actually happened — in language a board can read.</p>
+            <span class="cap-tag">04</span>
+          </article>
+          <article class="cap" aria-hidden="true">
+            <span class="cap-icon"><i class="fa-solid fa-envelope-open-text" aria-hidden="true"></i></span>
+            <h3>Lifecycle &amp; CRM</h3>
+            <p>Email, WhatsApp and retention flows that keep customers close long after the first purchase.</p>
+            <span class="cap-tag">05</span>
+          </article>
+          <article class="cap" aria-hidden="true">
+            <span class="cap-icon"><i class="fa-solid fa-flask" aria-hidden="true"></i></span>
+            <h3>Creative testing</h3>
+            <p>A constant flow of concepts, hooks and formats, tested against real results rather than opinion.</p>
+            <span class="cap-tag">06</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats" aria-label="Performance results at a glance">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat" data-reveal>
+            <div class="stat-num">5.2×</div>
+            <p class="stat-label">Average return on ad spend across managed accounts</p>
+          </div>
+          <div class="stat" data-reveal>
+            <div class="stat-num">−41%</div>
+            <p class="stat-label">Typical reduction in cost per acquisition within 90 days</p>
+          </div>
+          <div class="stat" data-reveal>
+            <div class="stat-num">2.8M</div>
+            <p class="stat-label">Qualified impressions delivered each quarter</p>
+          </div>
+          <div class="stat" data-reveal>
+            <div class="stat-num">120+</div>
+            <p class="stat-label">Campaigns planned, built and shipped to date</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Channels -->
+    <section class="section channels" aria-labelledby="channels-title">
+      <div class="container">
+        <header class="section-heading" data-reveal>
+          <p class="eyebrow">Where we run</p>
+          <h2 class="display" id="channels-title">The right channel is the one your customer actually uses.</h2>
+          <p class="lede">We plan across the full paid and owned landscape, then concentrate budget where the evidence points.</p>
+        </header>
+        <div class="channel-grid">
+          <div class="channel" data-reveal><i class="fa-brands fa-meta" aria-hidden="true"></i> Meta Ads</div>
+          <div class="channel" data-reveal><i class="fa-brands fa-google" aria-hidden="true"></i> Google Search</div>
+          <div class="channel" data-reveal><i class="fa-brands fa-google" aria-hidden="true"></i> Performance Max</div>
+          <div class="channel" data-reveal><i class="fa-brands fa-tiktok" aria-hidden="true"></i> TikTok Ads</div>
+          <div class="channel" data-reveal><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn Ads</div>
+          <div class="channel" data-reveal><i class="fa-brands fa-snapchat" aria-hidden="true"></i> Snapchat Ads</div>
+          <div class="channel" data-reveal><i class="fa-brands fa-youtube" aria-hidden="true"></i> YouTube</div>
+          <div class="channel" data-reveal><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email &amp; CRM</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Method -->
+    <section class="section method" aria-labelledby="method-title">
+      <div class="container">
+        <div class="method-top" data-reveal>
+          <header class="section-heading">
+            <p class="eyebrow">How we work</p>
+            <h2 class="display" id="method-title">A loop, not a launch.</h2>
+          </header>
+          <p class="method-note">Every stage feeds the next. Nothing runs on autopilot without a reason.</p>
+        </div>
+        <div class="method-list">
+          <div class="method-item" data-reveal>
+            <span class="method-index">01</span>
+            <h3>Audit &amp; benchmark</h3>
+            <p>We review your accounts, tracking, creative and competitors to establish an honest starting line.</p>
+          </div>
+          <div class="method-item" data-reveal>
+            <span class="method-index">02</span>
+            <h3>Strategy &amp; media plan</h3>
+            <p>A clear forecast, budget split and creative brief tied to one measurable business outcome.</p>
+          </div>
+          <div class="method-item" data-reveal>
+            <span class="method-index">03</span>
+            <h3>Build &amp; launch</h3>
+            <p>Campaign structure, audiences, tracking and creative produced together so nothing is bolted on late.</p>
+          </div>
+          <div class="method-item" data-reveal>
+            <span class="method-index">04</span>
+            <h3>Test &amp; optimise</h3>
+            <p>Weekly iteration on creative, audiences and bids — with a written record of what changed and why.</p>
+          </div>
+          <div class="method-item" data-reveal>
+            <span class="method-index">05</span>
+            <h3>Scale &amp; report</h3>
+            <p>We push what works, cut what doesn't and report in plain numbers you can take to the board.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section class="section results" aria-labelledby="results-title">
+      <div class="container">
+        <header class="section-heading" data-reveal>
+          <p class="eyebrow">Campaign snapshots</p>
+          <h2 class="display" id="results-title">Numbers that changed a business decision.</h2>
+        </header>
+        <div class="results-grid">
+          <article class="result-card" data-reveal>
+            <div class="result-media">
+              <img src="posters images/Aqua-Dropa-Water-Bottle-Mockup (1).jpeg" alt="Aqua-Dropa Water Bottle" loading="lazy" decoding="async">
+              <div class="result-metric"><strong>6.4×</strong><span>Return on ad spend</span></div>
+            </div>
+            <div class="result-body">
+              <h3>Aqua-Dropa Water Bottle</h3>
+              <p>Rebuilt the funnel and creative system across Meta and Google, cutting CPA by 38% in one quarter.</p>
+            </div>
+          </article>
+          <article class="result-card" data-reveal>
+            <div class="result-media">
+              <img src="posters images/Coffee-&-Juice-Holder.jpg" alt="Coffee and Juice Holder" loading="lazy" decoding="async">
+              <div class="result-metric"><strong>−47%</strong><span>Cost per qualified lead</span></div>
+            </div>
+            <div class="result-body">
+              <h3>Coffee and Juice Holder</h3>
+              <p>Tightened audience targeting and lead scoring, then matched creative to each stage of intent.</p>
+            </div>
+          </article>
+          <article class="result-card" data-reveal>
+            <div class="result-media">
+              <img src="posters images/Coffee-Cup-Mockup.jpg" alt="Coffee Cup" loading="lazy" decoding="async">
+              <div class="result-metric"><strong>+212%</strong><span>Reservation volume</span></div>
+            </div>
+            <div class="result-body">
+              <h3>Coffee Cup</h3>
+              <p>Paid social paired with always-on content, driving bookings through a new direct reservation flow.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" aria-labelledby="faq-title">
+      <div class="container">
+        <header class="section-heading" data-reveal>
+          <p class="eyebrow">Common questions</p>
+          <h2 class="display" id="faq-title">You might be wondering.</h2>
+        </header>
+        <div class="faq-list" data-reveal>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">What is the minimum media budget you work with? <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Most of our performance engagements start from AED 15,000 per month in working media. Below that, we usually recommend a focused one-off campaign or a strategy sprint instead.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Do you charge a percentage of ad spend? <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>We use a flat monthly retainer for the majority of accounts, which keeps our incentives aligned with results rather than spend. For larger budgets we can blend a retainer with a performance component.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">How quickly will we see results? <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Paid search and paid social typically show meaningful signal within 2–4 weeks. SEO and lifecycle work compound over three to six months. We set expectations per channel in the media plan before anything goes live.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Do you produce the creative as well as run the media? <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Yes. Performance creative — statics, short-form video, hooks and variants — is produced in-house. Media and creative working separately is the most common reason campaigns plateau.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Who owns the ad accounts and data? <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>You do, always. We work inside your accounts and hand over full access, documentation and dashboards at any point you ask.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container cta-content" data-reveal>
+        <p class="eyebrow">Let's make a mark</p>
+        <h2 class="display" id="cta-title">Find out what your budget could actually be doing.</h2>
+        <p>Send us your current accounts and targets. We will come back with an honest read on where the opportunity sits — and what we would change first.</p>
+        <div class="cta-actions">
+          <a class="button button-primary" href="contact.html">Request a media audit <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a class="button button-secondary" href="services.html">See all services</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="Raqeem Advertising Services home">
+          <img src="images/Raqeem-Advertising-Logo - Copy.png" width="45" height="45" alt="">
+          <span>
+            <span class="brand-name">RAQEEM<span class="gold">.</span></span>
+            <span class="brand-caption">Advertising Services</span>
+          </span>
+        </a>
+        <p>A Dubai-based creative and growth partner for brands ready to make a lasting mark.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/share/1DhypmR8Ns/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/raqeemuae?stkn=MXV1ZWZrcWY5cmFyag==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://linkedin.com/company/raqeemuae" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://x.com/raqeemuae?s=11" target="_blank" rel="noopener" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://youtube.com/@raqeemuae" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/@raqeemuae?_r=1&_t=ZS-99Z5jsOhKEs" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div>
+        <h2 class="footer-title">Explore</h2>
+        <ul class="footer-links">
+          <li><a href="about.html">About Raqeem</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Insights</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">Quick Links</h2>
+        <ul class="footer-links">
+          <li><a href="contact.html">Start a project</a></li>
+          <li><a href="about.html">Our team</a></li>
+          <li><a href="portfolio.html">Case studies</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">Contact</h2>
+        <div class="footer-contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:raqeemuae@gmail.com">raqeemuae@gmail.com</a>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Dubai, United Arab Emirates</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+971564677800">+971 56 467 7800</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Raqeem Advertising Services. All rights reserved.</span>
+      <a href="contact.html">Let's work together <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <script>
+    (() => {
+      const preloader = document.getElementById('preloader');
+      const preloaderVideo = document.getElementById('preloaderVideo');
+      const preloaderSkip = document.getElementById('preloaderSkip');
+      let preloaderHidden = false;
+
+      const hidePreloader = () => {
+        if (preloaderHidden) return;
+        preloaderHidden = true;
+        preloader.classList.add('hidden');
+        if (preloaderVideo) preloaderVideo.pause();
+        setTimeout(() => {
+          if (preloader.parentNode) preloader.parentNode.removeChild(preloader);
+        }, 700);
+      };
+
+      if (preloaderVideo) {
+        preloaderVideo.addEventListener('ended', hidePreloader);
+        preloaderVideo.addEventListener('error', () => {
+          console.warn('Loading video failed to load. Skipping preloader.');
+          hidePreloader();
+        });
+        preloaderVideo.addEventListener('stalled', () => {
+          setTimeout(() => {
+            if (preloaderVideo.readyState < 2 && !preloaderHidden) {
+              console.warn('Loading video stalled. Skipping preloader.');
+              hidePreloader();
+            }
+          }, 5000);
+        });
+        const playPromise = preloaderVideo.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {
+            const startVideoOnInteraction = () => {
+              preloaderVideo.play().catch(() => hidePreloader());
+              document.removeEventListener('click', startVideoOnInteraction);
+              document.removeEventListener('touchstart', startVideoOnInteraction);
+              document.removeEventListener('keydown', startVideoOnInteraction);
+            };
+            document.addEventListener('click', startVideoOnInteraction);
+            document.addEventListener('touchstart', startVideoOnInteraction);
+            document.addEventListener('keydown', startVideoOnInteraction);
+          });
+        }
+      }
+
+      if (preloaderSkip) preloaderSkip.addEventListener('click', hidePreloader);
+      setTimeout(hidePreloader, 20000);
+
+      const header = document.querySelector('.site-header');
+      const setHeaderState = () => header.classList.toggle('is-scrolled', window.scrollY > 18);
+      setHeaderState();
+      window.addEventListener('scroll', setHeaderState, { passive: true });
+
+      const toggle = document.querySelector('.menu-toggle');
+      const menu = document.querySelector('.nav-list');
+      const closeMenu = () => {
+        menu.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open navigation menu');
+        header.classList.remove('menu-open');
+      };
+      toggle.addEventListener('click', () => {
+        const open = menu.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', String(open));
+        toggle.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+        header.classList.toggle('menu-open', open);
+      });
+      menu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+      document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
+
+      const backToTop = document.getElementById('backToTop');
+      window.addEventListener('scroll', () => {
+        backToTop.classList.toggle('visible', window.scrollY > 500);
+      });
+      backToTop.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      document.querySelectorAll('.faq-question').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const item = btn.parentElement;
+          const isOpen = item.classList.contains('open');
+          document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+          document.querySelectorAll('.faq-question').forEach(q => q.setAttribute('aria-expanded', 'false'));
+          if (!isOpen) {
+            item.classList.add('open');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: .12 });
+        document.querySelectorAll('[data-reveal]').forEach(el => observer.observe(el));
+      } else {
+        document.querySelectorAll('[data-reveal]').forEach(el => el.classList.add('is-visible'));
+      }
+    })();
+  </script>
+</body>
+</html>
